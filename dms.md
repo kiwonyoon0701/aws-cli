@@ -6,3 +6,13 @@ aws dms create-replication-instance \
 --engine-version "3.4.0" \
 --no-publicly-accessible 
 
+## Create Endpoint
+### Target Endpoint
+aws dms   create-endpoint \
+--endpoint-identifier target-aurora01 \
+--endpoint-type target \
+--engine-name aurora \
+--username admin \
+--password Octank#1234 \
+--server-name cluster01.cluster-cf89zyffo8dr.ap-northeast-2.rds.amazonaws.com \
+--port 3306 
