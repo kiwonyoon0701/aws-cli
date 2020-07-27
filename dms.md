@@ -19,3 +19,4 @@ aws dms   create-endpoint \
 
 
 --password abcc
+<PASSWORD>
