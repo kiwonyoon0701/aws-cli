@@ -13,6 +13,6 @@ aws dms   create-endpoint \
 --endpoint-type target \
 --engine-name aurora \
 --username admin \
---password Octank#1234 \
+--password <PASSWORD> \
 --server-name cluster01.cluster-cf89zyffo8dr.ap-northeast-2.rds.amazonaws.com \
 --port 3306 
