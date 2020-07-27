@@ -51,6 +51,7 @@ aws dms create-replication-task \
 --target-endpoint-arn arn:aws:dms:ap-northeast-2:664695030410:endpoint:EVUY4OXIPEMSH6FVQ6GP6Z5RDXRBX3NSWDM7ITQ \
 --replication-instance-arn arn:aws:dms:ap-northeast-2:664695030410:rep:6PYMAMWLUC2DYG7TJOP7TKFOEPHMBY2HB5JLR7I \
 --migration-type  full-load \
+--replication-task-settings file://replication-task.json \
 --table-mappings file://table-mapping.json
 
 aws dms create-replication-task \
@@ -59,7 +60,8 @@ aws dms create-replication-task \
 --target-endpoint-arn arn:aws:dms:ap-northeast-2:664695030410:endpoint:JKPTXMC5K4XXXCDTWZIF2JXWYKGRELGXCDUHSRA \
 --replication-instance-arn arn:aws:dms:ap-northeast-2:664695030410:rep:U55RTYTBDZDQFSQYOY7ZJQBLW6K5IPMDEPHRGRI \
 --migration-type  full-load \
---table-mappings file://table-mapping.jso
+--replication-task-settings file://replication-task.json \
+--table-mappings file://table-mapping.json
 
 aws dms create-replication-task \
 --replication-task-identifier mig03 \
@@ -67,7 +69,8 @@ aws dms create-replication-task \
 --target-endpoint-arn arn:aws:dms:ap-northeast-2:664695030410:endpoint:4JK27H2WPHNLVLRTYFR4CUY5S3QGTHH7MMIPSGQ \
 --replication-instance-arn arn:aws:dms:ap-northeast-2:664695030410:rep:B4UQ7GQ2P7TV2LPDLEVMVLATFFNHJL5SJYPIO7I \
 --migration-type  full-load \
---table-mappings file://table-mapping.jso
+--replication-task-settings file://replication-task.json \
+--table-mappings file://table-mapping.json
 
 aws dms create-replication-task \
 --replication-task-identifier mig04 \
@@ -75,4 +78,5 @@ aws dms create-replication-task \
 --target-endpoint-arn arn:aws:dms:ap-northeast-2:664695030410:endpoint:CWDGWI6CBN3VOLUSGMLPJMTSI5KWEJN6CIAD2BI \
 --replication-instance-arn arn:aws:dms:ap-northeast-2:664695030410:rep:FVLND6TMKMMEBRZJJAT52YXXBZD3FUAHYYKQOAY \
 --migration-type  full-load \
---table-mappings file://table-mapping.jso
+--replication-task-settings file://replication-task.json \
+--table-mappings file://table-mapping.json
