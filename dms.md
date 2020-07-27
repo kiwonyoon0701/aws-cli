@@ -16,3 +16,6 @@ aws dms   create-endpoint \
 --password <PASSWORD> \
 --server-name cluster01.cluster-cf89zyffo8dr.ap-northeast-2.rds.amazonaws.com \
 --port 3306 
+
+
+--password abcc
