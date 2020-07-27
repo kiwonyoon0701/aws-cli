@@ -31,7 +31,7 @@
       "rule-name": "3",
       "object-locator": {
         "schema-name": "OSHOP2",
-        "table-name": "bigemp%"
+        "table-name": "BIGEMP%"
       },
       "rule-action": "include",
       "filters": []
